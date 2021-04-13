@@ -7,8 +7,8 @@ This is a data-analysis pipeline coded in Python. Below are a list of steps that
 3. Create an Array which contained pairs of paragraphs and the corresponding three words (tags) with the highest TF-IDF scores 
 4. Create a csv file with the first column representing paragraphs and the second column representing the corresponding tags. 
 
-##Note
+## Note
 Must have ntlk, panda packages imported.
 
-##Limitations 
+## Limitations 
 As I use the TF-IDF algorithm, this works best when given a very large document to look over. If only given a few small paragraphs, this algorithm will likely not find the best words that would be used as topics. 
